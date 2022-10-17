@@ -1,0 +1,174 @@
+"Dev_ID","Geographic_Regions","Int_Learn","Fin_Gain","Expt_Het","Tech_Cont_Norm","Sys_Int","Cod_Test_Task","Cont_Code_Dec","Dec_Right_Dec","Dev_Inv","Proj_Desertion","Promoted","Project_Age","Dev_Status","Gender","Age","Education","Dev_Experience"
+1001,"Asia",6,5,2,4.67,5.5,4.8,3.8,4.2,4,7,0,"<1 year","Planning","M","30–39","Doctorate",1
+1002,"North America",5.67,4.75,2.33,4.5,4.75,4.6,4,3.6,6.2,2.4,1,"2-3 years","Alpha","F","40–49","Doctorate",5
+1003,"Caribbean",6.67,6.5,1,4.83,6,6.2,5.4,3.6,6.8,4,0,"<1 year","Pre-alpha","F","30–39","Masters",1
+1004,"Central America",5.67,5.75,1.33,5.33,6.5,3.8,1.8,2.2,7,1.4,1,"<1 year","Planning","M","30–39","Masters",1
+1005,"Europe",5,5.5,2.33,4.67,5,4.2,3.2,4.2,4.4,3.8,0,"1-2 years","Pre-alpha","M","30–39","Doctorate",2
+1006,"North America",5.67,6.5,1.33,5.17,6.25,4.4,4.4,3,4.4,6,0,"4-5 years","Stable Maturity","F","30–39","Bachelors",1
+1007,"Oceania",2,2,6,3.67,2.75,2,2.4,3.2,1.2,5.8,0,"1-2 years","Pre-alpha","M","30–39","Doctorate",3
+1008,"South America",4.33,2.5,5,2.17,2,1.6,1.2,1.6,1.8,6.2,0,"2-3 years","Planning","M","30–39","Doctorate",3
+1009,"Asia",6,5.5,2.33,5,5.25,4.6,4.4,4.6,5.4,2.2,1,"3-4 years","Beta","F","40–49","Doctorate",5
+1010,"Asia",6,6.25,1.33,5.33,5.75,5,3.6,4,6.2,3,1,"4-5 years","Stable Maturity","M","40–49","Doctorate",5
+1011,"Oceania",7,5.75,2.33,5.33,6.5,5.8,3.2,4.8,4.6,6.4,0,"2-3 years","Beta","M","40–49","Masters",5
+1012,"Asia",6,5,4.33,3.5,5,3,3,1.2,4.8,4.8,0,"3-4 years","Planning","F","40–49","Doctorate",1
+1013,"Asia",4.67,5.25,3.33,4.67,4.5,4.4,3.2,3.4,5,4,0,">5 years","Alpha","M","40–49","Doctorate",3
+1014,"Africa",5,5.5,2,4.83,6.25,5.2,4,4,5.4,3.6,0,"<1 year","Pre-alpha","M","30–39","Masters",1
+1015,"Europe",7,6,1,5.33,7,6.2,4.4,4.8,6.8,1.4,1,"2-3 years","Planning","M","40–49","Masters",1
+1016,"Europe",5.67,4.75,1.33,5.33,6.5,5.4,3.2,1.6,5.2,5,0,"1-2 years","Maturity","M","30–39","Masters",2
+1017,"Asia",5,3.75,2.33,4.67,4.25,4.4,4.8,2.6,3.4,3,0,"1-2 years","Planning","M","30–39","Doctorate",3
+1018,"Europe",5.33,6,2,5.17,6.25,4.8,3.8,4,4.6,5,0,"1-2 years","Alpha","M","40–49","Doctorate",2
+1019,"Asia",5,5.5,3,5,5.5,5.2,3.8,4,5,3.2,0,"<1 year","Planning","M","20–29","Bachelors",1
+1020,"Europe",7,5.5,1,5,5.25,4.6,2.8,3.6,4.8,5.6,0,"2-3 years","Alpha","M","30–39","Bachelors",3
+1021,"North America",6,6.5,1.67,5,5.75,4.6,3.2,3,4.4,5,0,"<1 year","Pre-alpha","M","30–39","Masters",1
+1022,"Europe",5.67,5.25,4,4.5,5,5,3.4,4.2,4.6,4,0,">5 years","Alpha","M","20–29","Masters",3
+1023,"Europe",5,2.25,3.67,3.67,4.25,3,4,3.8,3,5,0,"<1 year","Planning","M","20–29","Bachelors",2
+1024,"Europe",4.33,4,4,3.83,4,3.8,3.8,4,3.4,5.2,0,"1-2 years","Alpha","M","30–39","Masters",2
+1025,"Asia",6.67,6.25,2.67,4.83,5.25,5.4,3.6,3.4,5.2,4.8,0,"3-4 years","Alpha","M","30–39","Doctorate",4
+1026,"Europe",6,5.5,1.33,5.17,6.5,6,3.4,4,5.2,4.6,0,"2-3 years","Pre-alpha","M","20–29","Masters",3
+1027,"Europe",5,3.75,2.33,4.67,6,5,4.6,4.6,5,4,0,">5 years","Planning","M","40–49","Bachelors",6
+1028,"Europe",4.67,4,3.67,4.67,5.25,5,4.2,4.6,4.8,3.4,0,"2-3 years","Beta","M","30–39","Doctorate",4
+1029,"North America",6,6.75,1,5.33,6.5,5,5.2,4.2,5.8,4.2,0,"2-3 years","Alpha","M",">50","Bachelors",4
+1030,"Europe",7,6.5,1.33,5.33,7,5.2,4,4,6,3.8,0,"1-2 years","Pre-alpha","M","40–49","Masters",1
+1031,"Europe",6.33,6.5,2,4.83,6.5,5.4,3.6,4,5.8,4.4,0,"<1 year","Planning","M","40–49","Doctorate",2
+1032,"Europe",5.33,6,1.67,5,5,5.8,4.2,4.8,5.6,3.2,0,"2-3 years","Stable Maturity","M","30–39","Doctorate",4
+1033,"Africa",4,4,4,4,4,4,4.4,3.6,4.2,3.6,0,"<1 year","Planning","M","30–39","Doctorate",1
+1034,"Europe",7,7,1.33,5.33,6.75,6,5.4,4,6.2,3,1,"4-5 years","Maturity","M","30–39","Bachelors",6
+1035,"North America",5.67,6.5,2.33,4.83,5.25,4.6,4.2,2.8,5.4,2.2,1,"3-4 years","Beta","M","20–29","Finished high School",4
+1036,"Europe",6,5.25,1.67,5.17,6.25,6.2,3.8,4.2,5.6,4,0,"1-2 years","Pre-alpha","F","20–29","Finished high School",2
+1037,"North America",6,6.75,1,5.33,5.5,5.2,2.8,3.6,5.4,4,0,"<1 year","Planning","M","20–29","Finished high School",1
+1038,"North America",6.67,6.5,1.33,5.17,6.75,5.2,4.2,4.4,6,4.2,0,"3-4 years","Beta","M","20–29","Finished high School",4
+1039,"North America",5.67,7,1.67,3.83,6.25,2.2,5.4,4.4,6.4,1,1,"3-4 years","Stable Maturity","M","20–29","Finished high School",4
+1040,"North America",5,4.75,4,5.33,6.75,5.6,3.4,4.6,6.4,6.4,0,"2-3 years","Beta","M","20–29","Bachelors",3
+1041,"Asia",5.67,5.75,2.33,5,6,4.2,3.6,4,5.6,5,0,"3-4 years","Alpha","M","20–29","Bachelors",3
+1042,"North America",5.67,6,3,4.83,5.5,5,4.2,4.2,6.2,2,0,"2-3 years","Alpha","F","20–29","Masters",3
+1043,"North America",4.67,4.5,4.33,4.33,5,4.4,3.8,3.8,5.8,4.2,0,"3-4 years","Alpha","F","20–29","Masters",4
+1044,"North America",6,5.5,3,4.67,6.5,5.8,3.6,4.6,5.8,3.6,0,"3-4 years","Beta","M","20–29","Masters",4
+1045,"North America",6.33,6.5,1.67,4.67,6.25,5.8,3.6,4,5.2,5,0,"2-3 years","Alpha","M","30–39","Masters",3
+1046,"North America",5.67,4.5,2.33,3.17,6.5,4.2,4.6,3.6,5.8,4,0,"2-3 years","Stable Maturity","M","20–29","Masters",3
+1047,"Asia",6.33,4,1,5.33,5.75,6.2,4.8,4.8,5.4,5.8,0,"3-4 years","Beta","F","20–29","Masters",4
+1048,"North America",7,6.25,1,4.83,6.75,4,4.4,4.4,6.2,2.6,1,"2-3 years","Alpha","M","20–29","Bachelors",4
+1049,"North America",4.33,6.5,2,5,6,5,4.4,3.8,6,4.6,0,"4-5 years","Maturity","M","20–29","Masters",3
+1050,"North America",5,4.75,1,4.67,6.5,4.6,4,3.4,6.4,1,1,"2-3 years","Alpha","M","20–29","Bachelors",3
+1051,"North America",7,1.5,1,3.17,4.5,6.2,3.4,4.4,4.4,3,0,">5 years","Maturity","F","30–39","Bachelors",4
+1052,"Asia",7,7,1,4.67,7,5.4,2.4,4,6,4,0,"3-4 years","Alpha","F","20–29","Bachelors",4
+1053,"Central America",5.33,6.5,1.33,5.33,6,5.6,4,5,5.6,2,1,"4-5 years","Beta","M","20–29","Bachelors",5
+1054,"North America",6,6,2,5,6,5,3.8,2.6,4,7,0,">5 years","Planning","F","20–29","Finished high School",1
+1055,"North America",7,7,1,5.33,7,5,4.6,5.2,4.6,6,0,"1-2 years","Planning","M","20–29","Finished high School",2
+1056,"North America",7,6.75,1.33,5.33,6.5,6,5.4,4.2,6.6,1,1,"3-4 years","Planning","M","30–39","Masters",6
+1057,"Asia",6.33,6.5,1.33,5.33,7,6.2,4.4,4.4,5.8,3.2,0,"2-3 years","Beta","M","40–49","Masters",3
+1058,"Asia",3.67,3.5,5.33,5,6.5,5,3.6,4.6,6.6,2.8,1,"2-3 years","Planning","M","30–39","Masters",2
+1059,"Asia",5.33,5.75,2.67,5,5.25,5.4,4.4,4.6,5.4,3,1,"<1 year","Beta","M","40–49","Doctorate",1
+1060,"Europe",4.67,5.5,1,5.33,7,5.2,1.2,1,5,5.2,0,">5 years","Planning","M","30–39","Masters",2
+1061,"Asia",5.33,4.5,1,4.5,5.25,3.8,2,1,2.8,6.6,0,"<1 year","Planning","M","40–49","Masters",2
+1062,"Asia",4,3.25,4,3.67,3.25,4,1,1,2.2,7,0,"<1 year","Planning","M","30–39","Masters",1
+1063,"Asia",4.67,3,4.67,4.33,6,4.6,6,4.6,5.4,2.6,0,"4-5 years","Alpha","F","20–29","Finished high School",5
+1064,"Europe",4.67,6,4,4.5,4.25,3.2,3.6,4.6,4.6,3,0,"3-4 years","Alpha","M","20–29","Finished high School",6
+1065,"Asia",3,4.5,3,4.33,4.75,3.6,4.2,4,4.4,3.6,0,"3-4 years","Beta","F","20–29","Masters",3
+1066,"Asia",6.33,6.75,1,5.17,6.5,5.2,3.6,4,5.8,4,0,"2-3 years","Planning","F","20–29","Finished high School",3
+1067,"Central America",6,5.75,4,4.33,4.5,4.2,4.4,4.2,4.6,3.2,0,"4-5 years","Alpha","M","20–29","Bachelors",4
+1068,"Asia",5,6,3.67,4.33,4,4.2,3.8,5.4,4.6,5.8,0,"<1 year","Beta","M","30–39","Masters",4
+1069,"Asia",5.67,6.5,4.33,4.83,4.25,3.4,3.6,3.8,4.4,5.2,0,"1-2 years","Planning","M","20–29","Bachelors",2
+1070,"Asia",4.67,5,3,4.67,4.75,4.8,3.4,4,3.8,4.4,0,"4-5 years","Alpha","M","20–29","Bachelors",5
+1071,"Central America",3.33,4.5,5.67,5,5.75,5.8,3,1.8,5.4,4,0,">5 years","Stable Maturity","F","20–29","Finished high School",1
+1072,"Europe",5,5,3.33,4.5,5.5,4.8,3.4,4,4.4,5.2,0,"2-3 years","Planning","M","20–29","Bachelors",4
+1073,"Europe",6.67,5.25,3,4.67,6.75,5.4,3.6,4,5.8,4,0,"<1 year","Planning","F","20–29","Finished high School",1
+1074,"Europe",7,7,3,5.33,7,6.2,5.2,4,5.4,5,0,"3-4 years","Pre-alpha","M","20–29","Finished high School",2
+1075,"Europe",5.33,6.25,2,5,6.25,5.4,4.4,4.4,4.8,3,0,">5 years","Beta","M","20–29","Bachelors",3
+1076,"Europe",5.67,5.25,2,5,6,5,4.4,3,5.6,3.2,0,"1-2 years","Beta","M","30–39","Finished high School",2
+1077,"Europe",5.33,6,4.67,4.67,5.5,4.2,3.8,4,5,4,0,"1-2 years","Maturity","M","20–29","Finished high School",1
+1078,"Europe",3,4.25,5,3.33,4.25,3.6,3.8,3.4,3.6,5.4,0,"<1 year","Planning","F","30–39","Bachelors",1
+1079,"Europe",5,6,4.33,2.83,5,3.4,3.4,4,4.6,3,0,"3-4 years","Planning","F","20–29","Finished high School",3
+1080,"Europe",7,6,1.33,5.33,6.75,6,5.4,5.2,6,1.8,0,">5 years","Planning","M","20–29","Bachelors",2
+1081,"North America",2,3.5,4.67,4,3.25,3.4,2.2,3.8,4.4,4.4,0,"2-3 years","Planning","F","20–29","Finished high School",3
+1082,"North America",6,5,4.33,2.67,3.75,5,3.8,3.4,5,3.6,0,"<1 year","Planning","F","20–29","Finished high School",1
+1083,"Asia",3,5,2,4.67,5,5.2,4.2,3.4,4.4,4.6,0,"2-3 years","Alpha","M","30–39","Bachelors",2
+1084,"Central America",6.67,7,1,4.33,7,4.6,3.6,4,6,4.6,0,"3-4 years","Beta","M","20–29","Bachelors",3
+1085,"Europe",6,6.75,1,5.33,6.25,6.2,5.2,4,5,5,0,">5 years","Stable Maturity","M","20–29","Bachelors",6
+1086,"Europe",4.67,4,4.33,3,2.25,2.6,3,3,3.2,6,0,"1-2 years","Pre-alpha","F","20–29","Finished high School",2
+1087,"Europe",5.67,5.75,3.33,5.17,5.75,5.4,3.4,4,5.2,4.6,0,"2-3 years","Planning","F","20–29","Bachelors",1
+1088,"Europe",3,4.25,4,4,4,4,1.6,1,3,7,0,"<1 year","Alpha","F","20–29","Bachelors",1
+1089,"Central America",4.33,4.25,4.67,4.17,2,4.2,3.2,3.6,4.4,4.4,0,">5 years","Planning","F","20–29","Masters",5
+1090,"Europe",6.67,6,3.67,4.5,6.25,5,3.8,4,5.8,4,0,"1-2 years","Pre-alpha","F","20–29","Finished high School",2
+1091,"Europe",5.67,6,5,3.83,3.25,5.4,3.2,2.4,5,2.6,1,">5 years","Planning","F","30–39","Bachelors",2
+1092,"Europe",6,6.5,1.67,5.33,6,5,4.4,4.4,5.4,5.4,0,"1-2 years","Pre-alpha","M","20–29","Bachelors",2
+1093,"Europe",5,6.25,2.33,1.67,4.75,4.4,4.6,4,3.4,3,0,">5 years","Stable Maturity","M","20–29","Finished high School",3
+1094,"North America",7,6.25,1.33,4.33,6.75,6,5,4.6,5.4,5,0,"2-3 years","Beta","M","30–39","Bachelors",3
+1095,"north America",5.67,3.5,3,3,4.75,5,3.8,2.6,5.4,5.4,0,"1-2 years","Planning","M","20–29","Masters",1
+1096,"North America",6,5,1.67,5.33,6.5,6,3.4,3.4,6.4,4.4,0,"2-3 years","Beta","M","20–29","Finished high School",3
+1097,"North America",6.67,5.5,1.67,5.33,6.5,5.6,5,4.2,6.4,4,0,"3-4 years","Maturity","F","20–29","Bachelors",2
+1098,"Asia",6,7,1,5.33,7,6,4.8,4,4.8,7,0,"3-4 years","Alpha","M","20–29","Bachelors",3
+1099,"North America",5.67,2.5,3.67,3.33,4.75,2.6,4.6,4.8,3.8,3.6,0,"3-4 years","Stable Maturity","M","20–29","Finished high School",6
+1100,"Europe",6.33,7,1,5.33,6.75,5.4,3.6,4.6,6,1.4,1,"4-5 years","Stable Maturity","M","20–29","Masters",4
+1101,"Europe",6.67,7,1,4.33,4.75,6.2,3.2,3.2,6.8,2.6,1,"1-2 years","Planning","F","20–29","Finished high School",1
+1102,"Europe",5.67,6.5,1.33,4.83,6.75,4.8,3.2,3.2,5.8,5.2,0,"<1 year","Planning","M","20–29","Finished high School",1
+1103,"Europe",6.33,6.25,1.33,5.33,5.75,4.4,3.2,4.2,6,3,1,"<1 year","Pre-alpha","M","20–29","Finished high School",1
+1104,"Asia",6.33,7,2.67,5.33,6,5,4.8,5,6.6,1.8,1,"1-2 years","Planning","M","20–29","Bachelors",2
+1105,"North America",7,7,1,5.33,7,6.2,5.2,5.4,6.8,1.8,1,"<1 year","Maturity","M","30–39","Doctorate",3
+1106,"North America",5.67,6.5,2.67,4.5,5.25,4.6,4,4.2,5.8,3.2,0,"3-4 years","Beta","F","30–39","Bachelors",4
+1107,"North America",6,6.75,1,5.33,7,2.2,3.6,5.4,6.8,3.4,0,"<1 year","Planning","M","20–29","Bachelors",1
+1108,"North America",6,6.75,1,5,6,6,4.2,4.4,3.8,5.8,0,"1-2 years","Stable Maturity","M","20–29","Finished high School",3
+1109,"Europe",4,4.5,2.67,3.5,4,4,4.4,4.8,5,2,1,"1-2 years","Pre-alpha","F","20–29","Masters",2
+1110,"Europe",5.67,5.75,1.67,4.67,5.5,5,4,4,5.4,2,1,"2-3 years","Alpha","F","20–29","Masters",2
+1111,"Europe",6.33,5.75,4.33,4.67,6.25,6,4.4,5.4,5.4,1.6,0,"4-5 years","Planning","F","20–29","Masters",5
+1112,"Europe",1.33,1.75,5.67,2.33,2,1.4,1.8,3.8,1.6,6.6,0,"2-3 years","Beta","F","20–29","Masters",2
+1113,"Europe",5,5.75,3,4.67,6,2,1,2,4.4,5,0,"<1 year","Planning","M","20–29","Finished high School",1
+1114,"Europe",6.33,6,1.33,5.33,7,4.6,4.8,4,6,3.8,0,">5 years","Stable Maturity","M","20–29","Bachelors",3
+1115,"Europe",7,7,1,5.33,6,6.2,5.8,5.4,6.4,1,0,"4-5 years","Beta","M","20–29","Doctorate",5
+1116,"North America",2,4.25,1,4.67,5.5,3.8,3.6,2.8,4.2,2.8,0,"4-5 years","Alpha","M","20–29","Finished high School",4
+1117,"North America",5.67,3.5,1,4,5,3.4,3.2,4.6,4.6,3.2,0,"2-3 years","Alpha","M","20–29","Bachelors",2
+1118,"North America",7,5.75,1,5.33,6.5,5.4,3.8,4,5,7,0,"<1 year","Stable Maturity","M","20–29","Bachelors",3
+1119,"North America",3.33,3.25,5,2.83,2.25,2,3.8,3.2,3,3.8,0,"2-3 years","Pre-alpha","F","20–29","Masters",4
+1120,"North America",5.67,7,1,5.33,6.25,4.4,3.6,3.8,5.2,2.2,1,">5 years","Maturity","F","20–29","Finished high School",2
+1121,"North America",6.67,6.75,1,4,6,6,2,4,5.2,4.4,0,"<1 year","Planning","F","30–39","Bachelors",1
+1122,"North America",4.67,6.25,2.33,4.33,5,3.6,4.6,3,4.2,4,0,"3-4 years","Beta","M","20–29","Masters",4
+1123,"North America",5.33,6.75,1,4.33,6.75,5,2,3.4,4.4,7,0,"1-2 years","Planning","M","20–29","Masters",2
+1124,"North America",6,5,2.33,4.33,5.5,3.4,4.4,4.6,6,2.4,1,"<1 year","Beta","M","20–29","Bachelors",2
+1125,"North America",5.67,7,1.33,5.33,6.75,3.4,4.2,4,5.2,5,0,"2-3 years","Beta","M","20–29","Bachelors",3
+1126,"North America",7,4.25,1.67,4.33,7,4,3.4,5,6.8,4.4,0,"3-4 years","Beta","M","20–29","Bachelors",2
+1127,"Europe",7,4.5,2,4.67,6.25,5.2,4.2,3,6.6,5,0,"3-4 years","Stable Maturity","F","20–29","Masters",3
+1128,"Europe",6.33,4.5,1.67,5.33,6.75,6,3.6,4.4,6.4,4.2,0,"2-3 years","Planning","M","30–39","Masters",5
+1129,"Europe",4.67,5.25,2,3.33,4.5,2.6,3.8,4.6,1.4,6.6,0,"1-2 years","Planning","M","30–39","Finished high School",2
+1130,"Europe",7,7,2.33,5.17,7,3.2,3.6,4.6,4.8,5.8,0,"1-2 years","Beta","M","20–29","Bachelors",2
+1131,"Europe",6,4.75,1,3.67,6.25,5.4,4.2,3.4,3.6,3,0,"3-4 years","Alpha","M","20–29","Bachelors",4
+1132,"Europe",6.33,7,4.33,5,6,5.8,2.6,3.6,6.8,3.4,0,"2-3 years","Beta","M","20–29","Masters",3
+1133,"Europe",7,6.75,1,5.17,6.25,5.4,5.8,3.8,6.4,1.2,1,"4-5 years","Maturity","M","20–29","Finished high School",6
+1134,"North America",5.67,7,2.33,5.33,6.75,5.6,3.4,4.2,6,4.8,0,"1-2 years","Maturity","F","20–29","Finished high School",2
+1135,"North America",4.67,5.25,2.33,5.17,5,4.6,4,4.2,4.6,3.4,0,"2-3 years","Planning","M","20–29","Bachelors",1
+1136,"North America",6.33,6.25,3.33,4.5,6.75,4.6,4,4.4,5.4,5.4,0,"2-3 years","Alpha","M","20–29","Bachelors",3
+1137,"North America",5,6,1.33,4.33,5.75,4,4.4,2.8,5.4,5.6,0,"<1 year","Planning","M","20–29","Bachelors",1
+1138,"North America",5,5.25,2.33,4.83,5.25,5.2,1.2,1.8,4.2,5,0,"<1 year","Planning","M","20–29","Bachelors",1
+1139,"North America",6,7,1.33,4.33,5.25,5,3.8,3.8,6,5,0,"2-3 years","Beta","M","20–29","Bachelors",3
+1140,"North America",6,7,1,5.33,6.5,3.8,3.2,2.8,6.4,4.2,0,"2-3 years","Alpha","M","20–29","Finished high School",1
+1141,"Europe",5,6,1,5.17,6,4.4,5.4,4.4,6.4,3.4,0,"1-2 years","Maturity","M","20–29","Finished high School",2
+1142,"Europe",6.67,5,2,4.83,6.5,2.4,2.4,3,3.6,6.2,0,"<1 year","Planning","M","20–29","Bachelors",1
+1143,"North America",7,6.75,2,5.17,6.75,5.2,4.6,4.6,5.8,4.2,0,"3-4 years","Beta","M","20–29","Masters",4
+1144,"Europe",7,6.75,1.33,5.17,6.5,5,5.2,4.6,5.6,6,0,">5 years","Alpha","M","20–29","Bachelors",3
+1145,"North America",6.33,7,1,5.33,7,6.2,3.8,4.2,7,6,0,"1-2 years","Maturity","F","20–29","Finished high School",1
+1146,"Europe",6.33,4.5,1,3.83,5.5,4.4,5.6,3.8,6,4.6,0,"1-2 years","Alpha","M","20–29","Bachelors",2
+1147,"Europe",4.67,4.25,3,5.17,6.75,5,3.4,5,6.2,3.6,0,"1-2 years","Planning","M","20–29","Bachelors",2
+1148,"Europe",4.33,4.25,1,5.33,6.5,6,4,4,4.8,5.6,0,"2-3 years","Alpha","M","20–29","Bachelors",3
+1149,"Europe",6.33,6.5,1.67,5.33,5.25,4.4,3.4,3.8,5,4,0,"2-3 years","Pre-alpha","M","20–29","Finished high School",2
+1150,"Asia",7,4,1,5.33,6.75,4.6,4.4,4.6,7,3.8,0,"1-2 years","Stable Maturity","M","20–29","Masters",2
+1151,"Africa",7,7,1,5.33,7,6,4.6,4.2,6,5.2,0,"2-3 years","Maturity","M","20–29","Bachelors",3
+1152,"North America",4.67,4.25,1.67,4.5,6.5,5.8,3.2,4,5.4,3.4,0,"2-3 years","Planning","F","20–29","Finished high School",3
+1153,"Europe",6,6.75,1.67,5.33,7,5.6,5.6,5.2,4.6,6.2,0,"2-3 years","Alpha","M","20–29","Finished high School",4
+1154,"North America",6.33,5.5,1.33,4.33,6.25,4.4,3.4,3.8,6.6,6.4,0,"1-2 years","Planning","M","30–39","Finished high School",2
+1155,"Europe",1,1,7,1,1,1,1,1,1,7,0,"<1 year","Planning","F","20–29","Finished high School",1
+1156,"Europe",7,5.5,2,5.33,6.5,4.4,3.4,3.6,6.4,1.8,0,">5 years","Maturity","M","20–29","Finished high School",6
+1157,"Europe",6,6.5,1.33,3.5,4.25,4.8,4.4,4.2,5.4,4.6,0,"3-4 years","Pre-alpha","F","20–29","Doctorate",3
+1158,"Europe",4.33,4.75,3,4.5,4.75,4,4.8,3.4,3.8,4.6,0,"<1 year","Alpha","M","30–39","Finished high School",1
+1159,"Europe",3.67,3.5,5.33,4.33,4.25,3.2,2.2,2.8,4,3.8,0,"4-5 years","Pre-alpha","M","20–29","Finished high School",2
+1160,"Europe",6,5,1,4.33,6,3.4,4.2,2.4,4.6,3.4,0,"<1 year","Planning","F","20–29","Bachelors",1
+1161,"Asia",6,4.25,1.67,5.17,5,3.8,3.8,4,5.6,5.6,0,"<1 year","Alpha","F","20–29","Finished high School",2
+1162,"Asia",6.67,7,1,5.33,7,6.2,6,5.4,6.8,1,1,"4-5 years","Beta","M","30–39","Doctorate",5
+1163,"Asia",6.67,6.25,2.33,5,6.25,5.4,5.8,3.8,6.8,1.2,1,">5 years","Planning","M","20–29","Finished high School",4
+1164,"North America",7,6,1,4.33,7,5.6,4.6,4,5.4,4.8,0,"3-4 years","Beta","M","20–29","Bachelors",4
+1165,"North America",6.67,5,2.67,5.17,4.75,4.6,3.6,4,5.6,3.8,0,"2-3 years","Maturity","F","30–39","Finished high School",2
+1166,"North America",6.33,3.75,3.67,4.83,4,4.8,4.8,4,5.2,4,0,"2-3 years","Planning","F","20–29","Finished high School",3
+1167,"Asia",3,3.25,6.67,5.33,6.5,5.4,4,4.6,5.2,5,0,"2-3 years","Stable Maturity","M","30–39","Bachelors",3
+1168,"Asia",5.33,4,3,3.83,4.25,4.8,4.2,4.4,3.8,6,0,"2-3 years","Planning","M","20–29","Finished high School",2
+1169,"Asia",4.67,4.5,2,4,4.5,4.4,4.2,3,4.4,3.2,0,"1-2 years","Planning","M","20–29","Bachelors",3
+1170,"North America",3.33,4.5,4,4.83,4.75,4,3.2,3.8,5.4,5.2,0,"<1 year","Planning","F","20–29","Bachelors",1
+1171,"Europe",5.67,5,1,5,6,4.4,4.4,3.4,5.4,3.6,0,"<1 year","Planning","F","20–29","Finished high School",1
+1172,"Europe",5.33,4,1,4.67,7,6.2,3.2,3,5,6,0,"1-2 years","Planning","M","30–39","Finished high School",2
+1173,"Europe",4,4.75,4.33,4.5,4,4.6,3.6,3.4,3.6,6,0,"<1 year","Planning","M","20–29","Bachelors",1

@@ -1,0 +1,37 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Prediction Status{% endblock %}
+{% block content %}
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-8" style="margin: 0 auto;">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Prediction Status</h5>
+
+              {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                  {% for message in messages %}
+                    {% if message.type == 'success' %}
+                    <div class="alert alert-success alert-dismissible fade show mb-5" role="alert">
+                      <i class="bi bi-check-circle me-1"></i>
+                      {{message.msg}}
+                    </div>
+                    <center><a class="btn btn-secondary" href="{{url_for('dashboard')}}">Go Back</a></center>
+                    {% elif message.type == 'error' %}
+                    <div class="alert alert-warning alert-dismissible fade show mb-5" role="alert">
+                      <i class="bi bi-exclamation-triangle me-1"></i>
+                      {{message.msg}}
+                    </div>
+                    <center><a class="btn btn-secondary" href="{{url_for('dashboard')}}">Go Back</a></center>
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                <script type="text/javascript">window.location.href = '/dashboard'</script>
+                {% endif %}
+              {% endwith %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
