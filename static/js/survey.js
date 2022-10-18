@@ -259,12 +259,12 @@ submitBtn.addEventListener('click', () => {
         // hide the seventh element
         document.getElementById('seven').style.display = 'none'
         //change the elements to display years
-        document.getElementById('one').innerHTML = '1 year'
-        document.getElementById('two').innerHTML = '2 years'
-        document.getElementById('three').innerHTML = '3 years'
-        document.getElementById('four').innerHTML = '4 years'
-        document.getElementById('five').innerHTML = '5 years'
-        document.getElementById('six').innerHTML = '6 years'
+        document.getElementById('one').innerHTML = '<1 year'
+        document.getElementById('two').innerHTML = '1-2 years'
+        document.getElementById('three').innerHTML = '2-3 years'
+        document.getElementById('four').innerHTML = '3-4 years'
+        document.getElementById('five').innerHTML = '4-5 years'
+        document.getElementById('six').innerHTML = '>5 years'
     }
     
 
@@ -395,7 +395,7 @@ submitBtn.addEventListener('click', () => {
                                         <option value="3">2-3 years</option>
                                         <option value="4">3-4 years</option>
                                         <option value="5">4-5 years</option>
-                                        <option value="6">>6 years</option>
+                                        <option value="6">>5 years</option>
                                     </select>
                                     <label for="dev_status"><b>Current Project Age</b></label>
                                 </div>
