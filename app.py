@@ -34,7 +34,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 setup_db(app)
 
-db_drop_and_create_all()
+# db_drop_and_create_all()
 
 # use session
 @app.before_first_request  # runs before FIRST request (only once)
