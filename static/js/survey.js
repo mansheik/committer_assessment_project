@@ -372,6 +372,7 @@ submitBtn.addEventListener('click', () => {
                                     <select id="region" name="region" class="form-control" required>
                                         <option value=""></option>
                                         <option value="asia">Asia</option>
+                                        <option value="africa">Africa</option>
                                         <option value="caribbean">Caribbean</option>
                                         <option value="central america">Central America</option>
                                         <option value="oceania">Oceania</option>
@@ -389,12 +390,12 @@ submitBtn.addEventListener('click', () => {
                                 <div class="form-floating mb-3">
                                     <select class="form-control" name="proj_age" id="proj_age" required>
                                         <option value=""></option>
-                                        <option value="1">1 month</option>
-                                        <option value="2">2 months</option>
-                                        <option value="3">3 months</option>
-                                        <option value="4">4 months</option>
-                                        <option value="5">5 months</option>
-                                        <option value="6">6 months</option>
+                                        <option value="1"><1 year</option>
+                                        <option value="2">1-2 years</option>
+                                        <option value="3">2-3 years</option>
+                                        <option value="4">3-4 years</option>
+                                        <option value="5">4-5 years</option>
+                                        <option value="6">>6 years</option>
                                     </select>
                                     <label for="dev_status"><b>Current Project Age</b></label>
                                 </div>
