@@ -26,17 +26,25 @@ def db_drop_and_create_all():
 
     # add one demo row which is helping in POSTMAN test
     admin = User(
-        username="abdullyahuza",
-        name="Abdull Yahuza",
-        email="yahuzaabdulrazak@gmail.com",
-        password=generate_password_hash("codediam")
+        username="shehu",
+        name="Shehu Sarki",
+        email="stjabo@gmail.com",
+        password=generate_password_hash("8188")
     )
     db.session.add(admin)
 
+    admin2 = User(
+        username="alawiyah",
+        name="Alawiyah AbdulWahab",
+        email="alawiyah@uum.edu.my",
+        password=generate_password_hash("12345")
+    )
+    db.session.add(admin2)
+
     enquirer = Enquiry(
-        name="Abdulrazak Yahuza",
-        education="master",
-        email="yahuzaabdulrazak@gmail.com",
+        name="Shehu Sarki",
+        education="PHD",
+        email="stjabo@gmail.com",
         region="north",
         fin_gain=6,
         int_learn=6,

@@ -163,12 +163,12 @@ const surveyData = {
 const quizKeys = Object.keys(surveyData) //["int_learn","fin_gain"...]
 const categories = {
     int_learn: "Intention to Learn",
-    fin_gain: "Financial Gain",
+    fin_gain: "Financial Gain Intention",
     expert_hetro: "Expert Hetrogenity",
-    tech_norm: "Technical Norm",
+    tech_norm: "Technical Contribution Norm",
     sys_int: "System Integration",
     code_test: "Code Testing Task",
-    cont_code_dec: "Continuous Code Integration",
+    cont_code_dec: "Contributed Code Decoupling",
     dec_right_del: "Decision Right Delegation",
     dev_inv: "Developer Involvement",
     proj_desertion: "Project Desertion",
