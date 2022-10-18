@@ -1,0 +1,9 @@
+Flask==2.2.2
+Flask-Session==0.4.0
+Flask-SQLAlchemy==2.5.1
+numpy==1.23.2
+pandas==1.4.4
+scikit-learn==1.1.2
+sklearn
+SQLAlchemy==1.4.41
+xgboost==1.6.1

@@ -1,0 +1,61 @@
+{% extends 'layouts/main.html' %}
+{% block title %}File Prediction Status{% endblock %}
+{% block content %}
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-10" style="margin: 0 auto;">
+          <div class="row">
+
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="card-body">
+                  <h5 class="card-title">Prediction Result <span>| From uploaded file</span></h5>
+
+                  <table class="table table-borderless datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                          {% for message in messages %}
+                            {% if message.type == 'success' %}
+                              {% for ID,status in message.msg.items() %}
+                              <tr>
+                                <th scope="row"><a href="#">{{loop.index}}</a></th>
+                                <td>{{ID}}</td>
+                                {% if status == 1 %}
+                                  <td><span class="badge bg-success">Promoted</span></td>
+                                {% else %}
+                                  <td><span class="badge bg-danger">Not Promoted</span></td>
+                                {% endif %}
+                              </tr>
+                              {% endfor %}
+                            {% endif %}
+                          {% endfor %}
+                        {% else %}
+                        <script type="text/javascript">window.location.href = '/from_file'</script>
+                        {% endif %}
+                      {% endwith %}
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Recent Sales -->
+
+            
+          </div>
+        </div><!-- End Left side columns -->
+      </div>
+    </section>
+{% endblock %}
