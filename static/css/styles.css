@@ -11521,3 +11521,12 @@ header.masthead h1, header.masthead .h1 {
   outline: none;
   background-color: #198754;
 }
+
+#survey-home-link {
+  text-decoration: none;
+}
+
+#survey-home-link:hover {
+  text-decoration: none;
+  color: darkgreen;
+}

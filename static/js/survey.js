@@ -275,7 +275,7 @@ submitBtn.addEventListener('click', () => {
     errorElem.style.display = 'none';
 
     //if question is answered get the next question
-    if(answer != undefined || answer == undefined){
+    if(answer != undefined /*|| answer == undefined*/){
 
         //the current question
         const currentsurveyData = currentCat[currentQuiz]
