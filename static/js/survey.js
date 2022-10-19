@@ -215,7 +215,7 @@ let currentCat = surveyData[quizKeys[currentKey]]
 
 let currentCatText = quizKeys[currentKey]
 
-qcatElem.innerHTML = `${categories[currentCatText]}`
+// qcatElem.innerHTML = `${categories[currentCatText]}`
 //current quiz question
 let currentQuiz = 0
 
@@ -312,7 +312,7 @@ submitBtn.addEventListener('click', () => {
             // set currentCatText to next
             currentCatText = quizKeys[currentKey]
             //update the DOM
-            qcatElem.innerHTML = `${categories[currentCatText]}`
+            // qcatElem.innerHTML = `${categories[currentCatText]}`
 
             //reset currentQuiz
             if(currentKey < quizKeys.length){
