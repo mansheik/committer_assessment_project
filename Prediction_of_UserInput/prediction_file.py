@@ -35,7 +35,8 @@ class Prediction_from_api:
 
         DataForMl = DataForMl.drop(columns='Promoted', axis=1)
 
-        InputData = InputData.append(DataForMl)
+        # InputData = InputData.append(DataForMl)
+        InputData = pd.concat([InputData, DataForMl])
 
         print(DataForMl)
         print(InputData)
