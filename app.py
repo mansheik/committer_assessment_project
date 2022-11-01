@@ -101,12 +101,22 @@ def prefict():
         Sys_Int = float(committer['sys_int'])
         Cod_Test_Task = float(committer['cod_test_task'])
         Cont_Code_Dec = float(committer['cont_code_dec'])
-        Dec_Right_Del = float(committer['dec_right_del'])
+        Dec_Right_Dec = float(committer['dec_right_dec'])
         Dev_Inv = float(committer['dev_inv'])
         Proj_Desertion = float(committer['proj_desertion'])
         Dev_Experience = float(committer['dev_experience'])
         enquirer = Enquiry.query.get(e_id)
-        pred = Prediction_from_api(Int_Learn, Fin_Gain, Tech_Cont_Norm, Sys_Int, Cod_Test_Task, Cont_Code_Dec,Dec_Right_Del, Dev_Inv, Proj_Desertion, Dev_Experience)
+        pred = Prediction_from_api(
+            Int_Learn,
+            Fin_Gain, 
+            Tech_Cont_Norm, 
+            Sys_Int, Cod_Test_Task, 
+            Cont_Code_Dec,
+            Dec_Right_Dec,
+            Dev_Inv,
+            Proj_Desertion,
+            Dev_Experience
+            )
         pred_data = pred.prediction_api()
 
         enquirer.promoted = True
@@ -162,7 +172,7 @@ def index():
                 tech_norm=request.form["tech_norm"],
                 code_test=request.form["code_test"],
                 cont_code_dec=request.form["cont_code_dec"],
-                dec_right_del=request.form["dec_right_del"],
+                dec_right_dec=request.form["dec_right_dec"],
                 proj_age=request.form["proj_age"],
                 date_submitted=date.today()
             )

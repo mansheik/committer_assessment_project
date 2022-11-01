@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 PredictorScaler=StandardScaler()
 
 class Prediction_from_api:
-    def __init__(self, int_learn, fin_gain, tech_cont_norm, sys_int, code_test_task, cont_code_dec, dec_right_del, dev_inv, proj_desertion, dev_experience):
+    def __init__(self, int_learn, fin_gain, tech_cont_norm, sys_int, code_test_task, cont_code_dec, dec_right_dec, dev_inv, proj_desertion, dev_experience):
         self.file_object = open("Prediction_logs/prediction_logs.txt", 'a+')
         self.log_writer = App_Logger()
         self.int_learn = int_learn
@@ -18,7 +18,7 @@ class Prediction_from_api:
         self.sys_int = sys_int
         self.code_test_task = code_test_task
         self.cont_code_dec = cont_code_dec
-        self.dec_right_del = dec_right_del
+        self.dec_right_dec = dec_right_dec
         self.dev_inv = dev_inv
         self.proj_desertion = proj_desertion
         self.dev_experience = dev_experience
@@ -26,8 +26,8 @@ class Prediction_from_api:
     def prediction_api(self):
         self.log_writer.log(self.file_object, 'Start of Prediction of api....')
         InputData = pd.DataFrame(
-            data=[[self.int_learn, self.fin_gain, self.tech_cont_norm, self.sys_int, self.code_test_task, self.cont_code_dec, self.dec_right_del, self.dev_inv, self.proj_desertion, self.dev_experience]],
-            columns=['Int_Learn', 'Fin_Gain','Tech_Cont_Norm','Sys_Int','Cod_Test_Task', 'Cont_Code_Dec', 'Dec_Right_Del', 'Dev_Inv', 'Proj_Desertion', 'Dev_Experience'])
+            data=[[self.int_learn, self.fin_gain, self.tech_cont_norm, self.sys_int, self.code_test_task, self.cont_code_dec, self.dec_right_dec, self.dev_inv, self.proj_desertion, self.dev_experience]],
+            columns=['Int_Learn', 'Fin_Gain','Tech_Cont_Norm','Sys_Int','Cod_Test_Task', 'Cont_Code_Dec', 'Dec_Right_Dec', 'Dev_Inv', 'Proj_Desertion', 'Dev_Experience'])
         Num_Inputs = InputData.shape[0]
         preprocessor = Preprocessing(self.file_object, self.log_writer)
         DataForMl = pd.read_csv('Data/train.csv')

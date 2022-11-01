@@ -55,7 +55,7 @@ def db_drop_and_create_all():
         tech_norm=6,
         code_test=6,
         cont_code_dec=6,
-        dec_right_del=6,
+        dec_right_dec=6,
         proj_age=6,
         promoted=0,
         date_submitted=date.today()
@@ -99,7 +99,7 @@ class Enquiry(db.Model):
     tech_norm = Column(Float)
     code_test = Column(Float)
     cont_code_dec = Column(Float)
-    dec_right_del = Column(Float)
+    dec_right_dec = Column(Float)
     proj_age = Column(Integer)
     promoted = Column(Boolean, default=0)
     date_submitted = Column(Date)
@@ -121,7 +121,7 @@ class Enquiry(db.Model):
             'tech_norm': self.tech_norm,
             'code_test': self.code_test,
             'cont_code_dec': self.cont_code_dec,
-            'dec_right_del': self.dec_right_del,
+            'dec_right_dec': self.dec_right_dec,
             'proj_age': self.proj_age,
             'promoted': self.promoted,
             'date_submitted': self.date_submitted
