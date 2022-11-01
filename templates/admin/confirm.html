@@ -166,11 +166,14 @@
               sys_int: sys_int,
               tech_cont_norm: tech_cont_norm
             }
-
+            console.log(request_data)
             $.ajax({
               url:"/api",
               method:"POST",
-              data: request_data,
+              dataType: 'json',
+              contentType: 'application/json',
+              data: JSON.stringify(request_data),
+              processData: false,
               beforeSend: function(){
                $("#spinner").addClass('spinner-grow spinner-grow-sm')
                $("#btn-txt").text("Sending data...")

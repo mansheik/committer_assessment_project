@@ -89,21 +89,22 @@ def from_file():
 
 # API route
 @app.route('/api', methods=['POST'])
-@login_required
+# @login_required
 def prefict():
     try:
-        e_id = int(request.form['e_id'])
-        name = request.form['name']
-        Int_Learn = float(request.form['int_learn'])
-        Fin_Gain = float(request.form['fin_gain'])
-        Tech_Cont_Norm = float(request.form['tech_cont_norm'])
-        Sys_Int = float(request.form['sys_int'])
-        Cod_Test_Task = float(request.form['cod_test_task'])
-        Cont_Code_Dec = float(request.form['cont_code_dec'])
-        Dec_Right_Del = float(request.form['dec_right_del'])
-        Dev_Inv = float(request.form['dev_inv'])
-        Proj_Desertion = float(request.form['proj_desertion'])
-        Dev_Experience = float(request.form['dev_experience'])
+        committer = request.get_json()
+        e_id = committer['e_id']
+        name = committer['name']
+        Int_Learn = float(committer['int_learn'])
+        Fin_Gain = float(committer['fin_gain'])
+        Tech_Cont_Norm = float(committer['tech_cont_norm'])
+        Sys_Int = float(committer['sys_int'])
+        Cod_Test_Task = float(committer['cod_test_task'])
+        Cont_Code_Dec = float(committer['cont_code_dec'])
+        Dec_Right_Del = float(committer['dec_right_del'])
+        Dev_Inv = float(committer['dev_inv'])
+        Proj_Desertion = float(committer['proj_desertion'])
+        Dev_Experience = float(committer['dev_experience'])
         enquirer = Enquiry.query.get(e_id)
         pred = Prediction_from_api(Int_Learn, Fin_Gain, Tech_Cont_Norm, Sys_Int, Cod_Test_Task, Cont_Code_Dec,Dec_Right_Del, Dev_Inv, Proj_Desertion, Dev_Experience)
         pred_data = pred.prediction_api()
