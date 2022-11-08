@@ -101,7 +101,7 @@ const surveyData = {
             question: "To what extent the relationship between your contributed code and the Blockchain core project was characterized by small number of interdependencies."
         }
     ],
-    dec_right_del: [
+    dec_right_dec: [
         {
             question: "To what extent the responsibility was distributed between you and the core developers for making decisions about the project features extension."
         },
@@ -169,7 +169,7 @@ const categories = {
     sys_int: "System Integration",
     code_test: "Code Testing Task",
     cont_code_dec: "Contributed Code Decoupling",
-    dec_right_del: "Decision Right Delegation",
+    dec_right_dec: "Decision Right Delegation",
     dev_inv: "Developer Involvement",
     proj_desertion: "Project Desertion",
     dev_experience: "Developer Experience"
@@ -183,7 +183,7 @@ const responseObj = {
     sys_int: '',
     code_test: '',
     cont_code_dec: '',
-    dec_right_del: '',
+    dec_right_dec: '',
     dev_inv: '',
     proj_desertion: '',
     dev_experience: ''
@@ -275,7 +275,7 @@ submitBtn.addEventListener('click', () => {
     errorElem.style.display = 'none';
 
     //if question is answered get the next question
-    if(answer != undefined /*|| answer == undefined*/){
+    if(answer != undefined || answer == undefined){
 
         //the current question
         const currentsurveyData = currentCat[currentQuiz]
